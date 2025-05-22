@@ -5,7 +5,7 @@ unsigned long long main()
     int i,n;
     scanf("%d",&n);
     if (n==0)
-    fac=0;
+    fac=1;
     else
     {
        fac=1;
