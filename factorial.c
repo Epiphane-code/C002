@@ -16,5 +16,5 @@ unsigned long long main()
        
     }
 
-    printf("Le factoriel de %d est:%llu\n", n, fac);
+    printf("Le factoriel de %d est : %llu\n", n, fac);
 }
