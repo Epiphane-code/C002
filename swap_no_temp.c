@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int v1,v2;
+    int a,b;
 
-    scanf("%d %d", &v1, &v2);
+    scanf("%d %d", &a, &b);
 
-    int a = v1, b = v2;
+    int v1 = a, v2 = b;
 
     a = a + b; 
     // a = a + b                      (nouvelle valeur de a)
@@ -16,7 +16,9 @@ int main()
     a = a - b; 
     // a = a - b => a = a + b - a = b (nouvelle valeur de a)
 
+    v1 = a; v2 = b;
+
     
-    printf("\nAprès échange: a = %d, b = %d", a, b);
+    printf("\nAprès échange: a = %d, b = %d", v1, v2);
 
 }
