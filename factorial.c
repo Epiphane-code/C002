@@ -1,7 +1,8 @@
-#include <stdio.h>
-int main()
+$#include <stdio.h>
+unsigned long long main()
 {
-    int n,i, fac;
+    unsigned long long fac;
+    int i,n;
     scanf("%d",&n);
     if (n==0)
     fac=0;
@@ -15,5 +16,5 @@ int main()
        
     }
 
-    printf("Le factoriel de %d est:%d", n, fac);
+    printf("Le factoriel de %d est:%llu\n", n, fac);
 }
