@@ -1,5 +1,5 @@
 #include <stdio.h>
-unsigned long long main()
+int main()
 {
     unsigned long long fac;
     int i,n;
