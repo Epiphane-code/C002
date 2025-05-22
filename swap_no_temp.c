@@ -5,7 +5,6 @@ int main()
 
     scanf("%d %d", &a, &b);
 
-    int v1 = a, v2 = b;
 
     a = a + b; 
     // a = a + b                      (nouvelle valeur de a)
@@ -16,7 +15,8 @@ int main()
     a = a - b; 
     // a = a - b => a = a + b - a = b (nouvelle valeur de a)
 
-    v1 = a; v2 = b;
+    
+    int v1 = a, v2 = b;
 
     
     printf("Après échange: a = %d, b = %d", v1, v2);
