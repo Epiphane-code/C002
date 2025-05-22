@@ -20,6 +20,6 @@ int main()
     int v1 = a, v2 = b;
 
     
-    printf("Après échange: a = %d, b = %d ", v1, v2);
+    printf("Après échange : a = %d, b = %d", v1, v2);
 
 }
